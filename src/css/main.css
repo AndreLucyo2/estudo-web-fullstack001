@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(236, 243, 243);
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px 0 10px;
+}
+
+table {
+    width: 100%;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+td {
+    text-align: center;
+    margin: 10px;
+}
+
+#section01{
+    margin: 1%;
+}

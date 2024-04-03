@@ -1,2 +1,2 @@
 # estudo-web-fullstack001
-Estudo gerais de desenvolvimento WEB 
+Estudos gerais sobre desenvolvimento WEB 
