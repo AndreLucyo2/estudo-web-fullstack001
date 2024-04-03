@@ -1,33 +1,82 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:rgb(236, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-h1 {
-    color: #333;
+.textH{
+    margin: 10px;
+}
+
+.login-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    font-size: 16px;
     font-weight: bold;
-    font-size: larger;
-    margin: 10px 0 10px;
+    margin-bottom: 5px;
 }
 
-table {
+input {
     width: 100%;
-    background-color: aliceblue;
-    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s
 }
 
-th {
-    text-align: center;
-    font-weight: bold;
-    font-size: larger;
-    
+.error-message {
+    margin-top: 2px;
+    color: red;
 }
 
-td {
-    text-align: center;
-    margin: 10px;
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-#section01{
-    margin: 1%;
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-group input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group.error input {
+    border-color: red;
 }
